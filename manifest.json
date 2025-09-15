@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Secure Password Manager",
+  "version": "1.0",
+  "description": "A simple Chrome extension to save and manage passwords securely.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
