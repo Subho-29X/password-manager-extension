@@ -143,7 +143,7 @@ async function loadAccounts() {
 
 // Copy password using Chrome's API
 function copyPassword(text, index) {
-  if (text === "🔒 Wrong key") {
+  if (text === " Wrong key") {
     alert("Cannot copy - wrong master key!");
     return;
   }
