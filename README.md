@@ -51,9 +51,6 @@ A simple and secure Chrome extension to store and manage your website passwords 
 - `popup.js`: All logic (encryption, saving, loading, UI handlers)
 - `style.css`: Styling for the popup
 
-## License
-
-> _Specify your license here (e.g., MIT, Apache 2.0, etc.)_
 
 ---
 
