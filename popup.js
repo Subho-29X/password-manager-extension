@@ -162,7 +162,7 @@ function copyPassword(text, index) {
       textarea.select();
       document.execCommand("copy");
       document.body.removeChild(textarea);
-      alert("Password copied..");
+      alert("Password copied.");
     });
 }
 
