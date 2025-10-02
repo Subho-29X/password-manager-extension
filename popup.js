@@ -152,7 +152,7 @@ function copyPassword(text, index) {
   navigator.clipboard
     .writeText(text)
     .then(() => {
-      alert("Password copied..");
+      alert("Password copied..!!");
     })
     .catch(() => {
       // Fallback: create a temporary textarea
