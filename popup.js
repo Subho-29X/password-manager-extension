@@ -68,7 +68,7 @@ async function decryptPassword(encryptedHex, masterPassword) {
     const decoder = new TextDecoder();
     return decoder.decode(decrypted);
   } catch (error) {
-    return "🔒 Wrong key!";
+    return "🔒 Wrong key entered";
   }
 }
 
