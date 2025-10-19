@@ -144,10 +144,10 @@ async function loadAccounts() {
 // Copy password using Chrome's API
 function copyPassword(text, index) {
   if (text === " Wrong key ! ") {
-    alert("Cannot copy - wrong master key!");
+    alert("Cannot copy - wrong master key!!");
     return;
   }
-
+  x;
   // Use Chrome's offscreen document for clipboard access
   navigator.clipboard
     .writeText(text)
